@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@300&family=Mukta:wght@500&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Lato:wght@300&family=Mukta:wght@500&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 12vh;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+
+}
+
+.search {
+    height: 12vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+
+}
+
+.search input {
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin: auto;
+
+    background-color: burlywood;
+    width: 200px;
+    height: 27px;
+    position: relative;
+    right: 64px;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn:hover{
+    font-size: larger;
+}
+
+
+nav ul {
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav ul li:hover{
+    color: yellow;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.container {
+    min-height: calc(100vh - 12vh - 10vh);
+    background-color: skyblue;
+    display: flex;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p1 {
+    margin: 8px auto;
+    width: 500px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+.container button{
+    margin:12px auto;
+    height: 55px;
+    width: 162px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.container button:hover{
+    background-color: white;
+    cursor:pointer;
+}
+
+
+.camera img {
+    margin: 14px 30px;
+    width: 100vh;
+}
+
+.space {
+    width: 60vw;
+}
+    
+.space h1{
+    width: 49vw;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.carditems{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 8px;
+}
+.carditems img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
